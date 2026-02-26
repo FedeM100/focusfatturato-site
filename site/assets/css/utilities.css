@@ -1,0 +1,9 @@
+/* utilities.css */
+
+/* Gradient text utility (used across pages + lead modal) */
+.hl-grad{
+  background: linear-gradient(90deg, #60a5fa, #1e3a8a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
