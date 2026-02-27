@@ -50,6 +50,9 @@
         --ff-m-card-title-lh: 1.12;
         --ff-m-card-text: clamp(16px, 4.2vw, 18px);
         --ff-m-card-text-lh: 1.50;
+
+        /* HOME (mobile) — hero subtitle size (reuse as section subtitle standard) */
+        --ff-home-m-hero-sub-size: clamp(19px, 5.3vw, 23px);
       }
 
       /* Mobile nav */
@@ -3229,8 +3232,8 @@
   body.ff-home-page #ff-steps .ff-steps__head h2,
   body.ff-home-page #ff-final .ff-final__head h2,
   body.ff-home-page .ff-faq .ff-faq__head h2{
-    font-size: var(--ff-m-h2) !important;
-    line-height: var(--ff-m-h2-lh) !important;
+    font-size: var(--ff-m-h1) !important;
+    line-height: var(--ff-m-h1-lh) !important;
     letter-spacing: var(--ff-title-ls) !important;
   }
 
@@ -3241,8 +3244,8 @@
   body.ff-home-page #ff-steps .ff-steps__sub,
   body.ff-home-page #ff-final .ff-final__sub,
   body.ff-home-page .ff-faq .ff-faq__sub{
-    font-size: var(--ff-m-sub) !important;
-    line-height: var(--ff-m-sub-lh) !important;
+    font-size: var(--ff-home-m-hero-sub-size) !important;
+    line-height: 1.58 !important;
     margin-top: var(--ff-subtitle-gap) !important;
     max-width: min(100%, 34ch) !important;
   }
@@ -3260,7 +3263,7 @@
   }
   body.ff-home-page #welcome p.hero-sub{
     /* match the “Ti cercano su Google” subtitle vibe, then scale up a touch */
-    font-size: clamp(19px, 5.3vw, 23px) !important;
+    font-size: var(--ff-home-m-hero-sub-size) !important;
     line-height: 1.58 !important;
     font-weight: 400 !important;
     letter-spacing: var(--ff-title-ls) !important;
