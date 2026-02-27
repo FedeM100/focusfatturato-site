@@ -3254,14 +3254,14 @@
     max-width: min(100%, 14ch) !important;
   }
   body.ff-home-page #welcome.ff-hero{
-    min-height: 86vh;
-    padding: calc(var(--ff-header-h) + 56px) 18px 88px;
+    min-height: 92vh;
+    padding: calc(var(--ff-header-h) + 74px) 18px 104px;
     align-items: flex-start;
   }
   body.ff-home-page #welcome .hero-sub{
     /* match the “Ti cercano su Google” subtitle vibe, then scale up a touch */
-    font-size: clamp(28px, 7.4vw, 32px) !important;
-    line-height: 1.64 !important;
+    font-size: clamp(30px, 7.9vw, 36px) !important;
+    line-height: 1.62 !important;
     letter-spacing: 0 !important;
     max-width: min(100%, 34ch) !important;
   }
