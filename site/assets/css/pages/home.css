@@ -3155,9 +3155,6 @@
 /* Mobile type normalization for homepage (reference: /blog/ hub hero) */
 @media (max-width: 760px){
   body.ff-home-page #welcome h1{
-    font-size: var(--ff-title-size) !important;
-    line-height: var(--ff-title-lh) !important;
-    letter-spacing: var(--ff-title-ls) !important;
     max-width: min(100%, 13ch);
     margin-inline: auto;
     overflow-wrap: anywhere;
@@ -3166,9 +3163,6 @@
   }
 
   body.ff-home-page #welcome p.hero-sub{
-    font-size: var(--ff-subtitle-size) !important;
-    line-height: var(--ff-subtitle-lh) !important;
-    letter-spacing: var(--ff-subtitle-ls) !important;
     max-width: min(100%, 70ch);
     margin-inline: auto;
     overflow-wrap: anywhere;
@@ -3178,9 +3172,6 @@
 
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > header > :is(h1,h2,h3),
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > * > header > :is(h1,h2,h3){
-    font-size: var(--ff-title-size) !important;
-    line-height: var(--ff-title-lh) !important;
-    letter-spacing: var(--ff-title-ls) !important;
     max-width: min(100%, 26ch);
     margin-inline: auto;
     overflow-wrap: anywhere;
@@ -3192,10 +3183,6 @@
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > * > header > :is(h1,h2,h3) + p,
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > header > p[class*="sub"],
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > * > header > p[class*="sub"]{
-    font-size: var(--ff-subtitle-size) !important;
-    line-height: var(--ff-subtitle-lh) !important;
-    letter-spacing: var(--ff-subtitle-ls) !important;
-    margin-top: var(--ff-subtitle-gap) !important;
     max-width: min(100%, 72ch);
     margin-inline: auto;
     overflow-wrap: anywhere;
