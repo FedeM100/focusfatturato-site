@@ -3240,7 +3240,8 @@
 
   /* HOME — "Ti cercano su Google" subtitle: slightly larger on mobile */
   body.ff-home-page #ff-problem .ff-problem__sub{
-    font-size: clamp(26px, 7.2vw, 32px) !important;
+    /* slightly larger than "Prima di costruire..." subtitle (var(--ff-m-sub)) */
+    font-size: clamp(20px, 5.8vw, 25px) !important;
     line-height: 1.62 !important;
     max-width: min(100%, 46ch) !important;
   }
