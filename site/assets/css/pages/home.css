@@ -3251,6 +3251,13 @@
     max-width: min(100%, 52ch) !important;
   }
 
+  /* HOME — "Ti cercano su Google" subtitle: slightly larger on mobile */
+  body.ff-home-page #ff-problem .ff-problem__sub{
+    font-size: clamp(20px, 5.6vw, 25px) !important;
+    line-height: 1.62 !important;
+    max-width: min(100%, 46ch) !important;
+  }
+
   /* HOME — hero typography */
   body.ff-home-page #welcome h1{
     font-size: var(--ff-m-h1) !important;
