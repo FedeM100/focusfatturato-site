@@ -3253,7 +3253,7 @@
 
   /* HOME — "Ti cercano su Google" subtitle: slightly larger on mobile */
   body.ff-home-page #ff-problem .ff-problem__sub{
-    font-size: clamp(20px, 5.6vw, 25px) !important;
+    font-size: clamp(22px, 6.0vw, 27px) !important;
     line-height: 1.62 !important;
     max-width: min(100%, 46ch) !important;
   }
