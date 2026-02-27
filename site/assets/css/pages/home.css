@@ -3262,7 +3262,8 @@
     /* match the “Ti cercano su Google” subtitle vibe, then scale up a touch */
     font-size: clamp(19px, 5.3vw, 23px) !important;
     line-height: 1.58 !important;
-    letter-spacing: 0 !important;
+    font-weight: 500 !important;
+    letter-spacing: var(--ff-title-ls) !important;
     color: var(--theme-surface-on-surface) !important;
     max-width: min(100%, 34ch) !important;
   }
