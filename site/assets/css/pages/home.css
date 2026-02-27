@@ -3244,10 +3244,11 @@
   body.ff-home-page #ff-steps .ff-steps__sub,
   body.ff-home-page #ff-final .ff-final__sub,
   body.ff-home-page .ff-faq .ff-faq__sub{
-    font-size: var(--ff-home-m-hero-sub-size) !important;
-    line-height: 1.58 !important;
+    /* Section subtitles are longer than hero lead: keep them slightly smaller and wider on mobile */
+    font-size: var(--ff-m-sub) !important;
+    line-height: var(--ff-m-sub-lh) !important;
     margin-top: var(--ff-subtitle-gap) !important;
-    max-width: min(100%, 34ch) !important;
+    max-width: min(100%, 52ch) !important;
   }
 
   /* HOME — hero typography */
