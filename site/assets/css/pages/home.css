@@ -3157,26 +3157,26 @@
   body.ff-home-page #welcome h1{
     max-width: min(100%, 13ch);
     margin-inline: auto;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: none;
   }
 
   body.ff-home-page #welcome p.hero-sub{
     max-width: min(100%, 70ch);
     margin-inline: auto;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: none;
   }
 
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > header > :is(h1,h2,h3),
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > * > header > :is(h1,h2,h3){
     max-width: min(100%, 26ch);
     margin-inline: auto;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: none;
   }
 
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > header > :is(h1,h2,h3) + p,
@@ -3185,9 +3185,9 @@
   body.ff-home-page section[id]:not(#welcome):not(#ff-footer-easy) > * > header > p[class*="sub"]{
     max-width: min(100%, 72ch);
     margin-inline: auto;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: none;
   }
 }
 
@@ -3206,9 +3206,9 @@
 
   body.ff-home-page :is(h1,h2,h3,p),
   body.ff-dove-page :is(h1,h2,h3,p){
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    hyphens: auto;
+    overflow-wrap: break-word;
+    word-break: normal;
+    hyphens: none;
   }
 
   /* HOME — section titles/subtitles */
@@ -3360,7 +3360,7 @@
     opacity: .92 !important;
   }
   body.ff-home-page #ff-final{
-    padding-bottom: 160px !important;
+    padding-bottom: 80px !important;
   }
 
   /* DOVE OPERO — hero + cards + FAQ */
@@ -3420,13 +3420,21 @@
     line-height: 1.12 !important;
   }
   body.ff-dove-page #ff-where-faq{
-    padding-bottom: 200px !important;
+    padding: 88px clamp(16px, 2.6vw, 28px) 40px !important;
   }
 
   /* Footer mobile — static (no animated curve / magnet), more spacing before footer */
   #ff-footer-easy{
     --ffe-pullup: 0px !important;
-    margin-top: 28px !important;
+    margin-top: 0 !important;
+  }
+  #ff-footer-easy .ffe-surface{
+    padding-top: 40px !important;
+  }
+  #ff-footer-easy .ffe-bg{
+    background: #ffffff !important;
+    clip-path: none !important;
+    -webkit-clip-path: none !important;
   }
   #ff-footer-easy .ffe-bg,
   #ff-footer-easy .ffe-logo,
@@ -3438,6 +3446,9 @@
   #ff-footer-easy .ffe-magnet{
     --mx: 0px !important;
     --my: 0px !important;
+  }
+  #ff-footer-easy #ffeCanvas{
+    display: none !important;
   }
 }
 

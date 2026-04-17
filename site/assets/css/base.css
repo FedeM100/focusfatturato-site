@@ -2,3 +2,88 @@
 html{
   -webkit-text-size-adjust: 100%;
 }
+
+body,
+button,
+input,
+textarea,
+select{
+  font-family:"Google Sans Flex",sans-serif;
+  font-weight:400;
+}
+
+:is(h1,h2,h3,h4,h5,h6){
+  font-weight:500 !important;
+}
+
+:is(strong,b){
+  font-weight:500 !important;
+}
+
+:is(
+  .ff-cta,
+  .ff-nav a,
+  .ff-project-btn,
+  .ff-project-btnAlt,
+  .ff-case__link,
+  .ff-portfolio__link,
+  .ff-portfolio-cta__btn,
+  .ff-blog-btn,
+  .ff-final__btn,
+  .ff-lfaq__btn,
+  button,
+  [type="button"],
+  [type="submit"]
+){
+  font-weight:500 !important;
+}
+
+@media (max-width: 820px){
+  .ff-blog-spacer,
+  .ff-legal-footerSpace,
+  .ff-project-spacer,
+  .ff-portfolio-spacer{
+    height:0 !important;
+  }
+
+  #ff-footer-easy{
+    --ffe-pullup: 0px !important;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+  }
+
+  #ff-footer-easy .ffe-surface{
+    padding-top:40px !important;
+  }
+
+  #ff-footer-easy .ffe-bg{
+    background:#ffffff !important;
+    clip-path:none !important;
+    -webkit-clip-path:none !important;
+  }
+
+  #ff-footer-easy .ffe-bg,
+  #ff-footer-easy .ffe-logo,
+  #ff-footer-easy .ffe-magnet{
+    transform:none !important;
+    transition:none !important;
+    animation:none !important;
+  }
+
+  #ff-footer-easy .ffe-magnet{
+    --mx: 0px !important;
+    --my: 0px !important;
+  }
+
+  #ff-footer-easy #ffeCanvas{
+    display:none !important;
+  }
+
+  body.ff-home-page #ff-final{
+    padding-bottom:80px !important;
+  }
+
+  body.ff-dove-page #ff-where-faq{
+    padding:88px clamp(16px, 2.6vw, 28px) 40px !important;
+  }
+}

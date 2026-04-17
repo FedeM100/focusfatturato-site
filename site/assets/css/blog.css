@@ -780,6 +780,18 @@ body.ff-blog-page section{ min-height: unset; }
     padding: 120px clamp(16px, 2.6vw, 22px) 58px;
   }
   .ff-blog-main--hub .ff-blog-section{ margin-top: clamp(20px, 4.6vw, 34px); }
+
+  .ff-blog-hubCta{
+    padding: 64px clamp(16px, 2.6vw, 22px) 32px;
+    background:
+      radial-gradient(980px 520px at 18% 16%, rgba(96,165,250,.18), transparent 62%),
+      radial-gradient(920px 520px at 86% 24%, rgba(30,58,138,.10), transparent 66%),
+      var(--ff-blog-blue-weak);
+  }
+
+  .ff-blog-hubCta--article{
+    padding-bottom: 32px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce){
