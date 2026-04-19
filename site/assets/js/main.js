@@ -8,14 +8,14 @@
 <div class="ff-lead-modal" id="ffLeadModal" hidden>
   <div class="ff-lead-backdrop" data-ff-lead-close aria-hidden="true"></div>
 
-  <div class="ff-lead-dialog" role="dialog" aria-modal="true" aria-labelledby="ffLeadTitle">
+  <div class="ff-lead-dialog" role="dialog" aria-modal="true" aria-labelledby="ffLeadTitle" aria-describedby="ffLeadIntro">
     <button class="ff-lead-close" type="button" aria-label="Chiudi" data-ff-lead-close>&times;</button>
     <div class="ff-lead-header">
       <h2 id="ffLeadTitle">Parliamo del <span class="hl-grad">tuo progetto</span></h2>
-      <p class="ff-lead-sub">Lasciami i tuoi contatti: ti rispondo presto con un piano dedicato.</p>
+      <p class="ff-lead-sub" id="ffLeadIntro">Lasciami i tuoi contatti: ti rispondo presto con un piano dedicato.</p>
     </div>
 
-    <form class="ff-lead-form" id="ffLeadForm" novalidate>
+    <form class="ff-lead-form" id="ffLeadForm" aria-label="Richiesta preventivo gratuito" novalidate>
       <div class="ff-lead-row">
         <div class="ff-lead-field">
           <label for="ffLeadFirst">Il tuo Nome *</label>
@@ -71,12 +71,12 @@
         <p class="ff-lead-choiceTitle">Qual è il budget per il progetto? *</p>
         <div class="ff-lead-choiceRow ff-lead-choiceRow--budget">
           <label class="ff-lead-radio">
-            <input type="radio" name="ff_budget" value="0 - 1.000 €" checked required>
-            <span>0 - 1.000 €</span>
+            <input type="radio" name="ff_budget" value="800 - 1.500 €" checked required>
+            <span>800 - 1.500 €</span>
           </label>
           <label class="ff-lead-radio">
-            <input type="radio" name="ff_budget" value="1.200 - 3.000 €">
-            <span>1.200 - 3.000 €</span>
+            <input type="radio" name="ff_budget" value="1.500 - 3.000 €">
+            <span>1.500 - 3.000 €</span>
           </label>
           <label class="ff-lead-radio">
             <input type="radio" name="ff_budget" value="+3.000 €">
@@ -87,12 +87,12 @@
 
       <label class="ff-lead-privacy">
         <input type="checkbox" name="ff_privacy" required>
-        <span>Accetto i termini e la <a href="/pages/privacy-policy/" target="_blank" rel="noopener">privacy policy</a>.</span>
+        <span>Accetto i termini e la <a href="/privacy-policy/" target="_blank" rel="noopener">privacy policy</a>.</span>
       </label>
 
       <div class="ff-lead-actions">
-        <button class="ff-lead-btn ff-lead-btn--primary" type="submit" data-ff-lead-submit>Invia richiesta</button>
-        <button class="ff-lead-btn ff-lead-btn--ghost" type="button" data-ff-lead-close>Chiudi</button>
+        <button class="ff-lead-btn ff-lead-btn--primary" type="submit" data-ff-lead-submit aria-label="Richiedi preventivo gratuito">Richiedi preventivo gratuito</button>
+        <a class="ff-lead-btn ff-lead-btn--ghost" href="tel:+39334207715" aria-label="Chiamami al 334 207 715">Chiamami</a>
       </div>
 
       <div class="ff-lead-status" data-ff-lead-status role="status" aria-live="polite">
@@ -113,8 +113,8 @@
         Google Analytics al momento non e attivo. Puoi accettare o rifiutare i cookie opzionali.
       </p>
       <div class="ff-cookie__links">
-        <a href="/pages/privacy-policy/">Privacy Policy</a>
-        <a href="/pages/cookie-policy/">Cookie Policy</a>
+        <a href="/privacy-policy/">Privacy Policy</a>
+        <a href="/cookie-policy/">Cookie Policy</a>
       </div>
     </div>
     <div class="ff-cookie__actions">

@@ -1,4 +1,4 @@
-﻿(() => {
+(() => {
       const canvas = document.getElementById('ringCanvas');
       const host = document.getElementById('welcome');
       if(!canvas || !host) return;
@@ -2197,7 +2197,7 @@
         W = Math.max(1, Math.floor(r.width));
         H = Math.max(1, Math.floor(r.height));
 
-        /* âœ… FIX ANIMAZIONE: non dipende solo da H (se H cambia, la curva non â€œsi rimpicciolisceâ€) */
+        /* ✅ FIX ANIMAZIONE: non dipende solo da H (se H cambia, la curva non “si rimpicciolisce”) */
         const basis = Math.max(H, Math.floor((window.innerHeight || 800) * 0.78));
 
         edgeMax = clamp(Math.round(basis * 0.12), 44, 92);

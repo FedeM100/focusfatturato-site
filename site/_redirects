@@ -1,4 +1,13 @@
 /assets/* /assets/:splat 200
 /robots.txt /robots.txt 200
+/sitemap.xml /sitemap.xml 200
 /maintenance.html /maintenance.html 200
+/portfolio /portfolio/ 301
+/privacy-policy /privacy-policy/ 301
+/cookie-policy /cookie-policy/ 301
+/pages/portfolio/* /portfolio/:splat 301
+/pages/privacy-policy/* /privacy-policy/ 301
+/pages/cookie-policy/* /cookie-policy/ 301
+/pages/dove-opero/* /dove-opero/ 301
+/pages/home/* / 301
 /* /index.html 200

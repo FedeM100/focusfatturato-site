@@ -244,6 +244,7 @@
         align-items:center;
         padding: .55em 1.05em;
         border-radius:999px;
+        position: relative;
 
         text-decoration:none;
         color: var(--theme-surface-on-surface-variant);
@@ -257,6 +258,24 @@
       .ff-nav a:focus-visible{
         background: var(--theme-secondary-button);
         color: var(--theme-surface-on-surface);
+      }
+
+      .ff-nav a:nth-child(5){
+        margin-left: 10px;
+        padding-left: 1.55em;
+      }
+
+      .ff-nav a:nth-child(5)::before{
+        content:"";
+        position:absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 1px;
+        height: 20px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, #60a5fa, #1e3a8a);
+        opacity: .95;
       }
 
       .ff-nav__cta{
@@ -301,6 +320,13 @@
         }
         .ff-nav{ display:none; }
         .ff-nav.is-open{ display:flex; }
+        .ff-nav a:nth-child(5){
+          margin-left: 0;
+          padding-left: 1.05em;
+        }
+        .ff-nav a:nth-child(5)::before{
+          display:none;
+        }
       }
 
       /* CTA "Contattaci" gradient blu */

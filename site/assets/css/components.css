@@ -319,6 +319,7 @@
   background:transparent;
   color:#121317;
   border-color: rgba(33,34,38,.16);
+  font-weight:400;
 }
 .ff-lead-btn--ghost:hover,
 .ff-lead-btn--ghost:focus-visible{
