@@ -4,6 +4,12 @@
 /maintenance.html /maintenance.html 200
 /pages/portfolio /portfolio/ 301!
 /pages/portfolio/ /portfolio/ 301!
+/pages/portfolio/alc-srl/ /portfolio/alc-srl/ 301!
+/pages/portfolio/autoscuola-easy-driver/ /portfolio/autoscuola-easy-driver/ 301!
+/pages/portfolio/de-masi-auto/ /portfolio/de-masi-auto/ 301!
+/pages/portfolio/fqs-consulenza-qualita/ /portfolio/fqs-consulenza-qualita/ 301!
+/pages/portfolio/luigina-bernardi/ /portfolio/luigina-bernardi/ 301!
+/pages/portfolio/supreme-cars/ /portfolio/supreme-cars/ 301!
 /privacy-policy /privacy-policy/ 301!
 /cookie-policy /cookie-policy/ 301!
 /pages/portfolio/* /portfolio/:splat 301!
