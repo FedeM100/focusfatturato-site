@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
 Sitemap: https://federicowebsolution.it/sitemap.xml
+Sitemap: https://federicowebsolution.it/sitemap-images.xml
+Sitemap: https://federicowebsolution.it/sitemap-videos.xml

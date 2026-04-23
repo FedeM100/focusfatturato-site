@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://federicowebsolution.it/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://federicowebsolution.it/assets/media/immagini/alc.webp</video:thumbnail_loc>
+      <video:title>Prima del restyling del sito ALC SRL</video:title>
+      <video:description>Video dimostrativo dello stato iniziale del sito ALC SRL prima del restyling.</video:description>
+      <video:content_loc>https://federicowebsolution.it/assets/media/immagini/ALCPRIMA.webm</video:content_loc>
+      <video:publication_date>2026-04-23T00:00:00+02:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://federicowebsolution.it/assets/media/immagini/alc.webp</video:thumbnail_loc>
+      <video:title>Dopo il restyling del sito ALC SRL</video:title>
+      <video:description>Video dimostrativo del sito ALC SRL dopo il restyling realizzato da Federico Web Solution.</video:description>
+      <video:content_loc>https://federicowebsolution.it/assets/media/immagini/ALC.webm</video:content_loc>
+      <video:publication_date>2026-04-23T00:00:00+02:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://federicowebsolution.it/assets/media/immagini/supreme.webp</video:thumbnail_loc>
+      <video:title>Prima del restyling del sito Supreme Cars</video:title>
+      <video:description>Video dimostrativo dello stato iniziale del sito Supreme Cars prima del restyling.</video:description>
+      <video:content_loc>https://federicowebsolution.it/assets/media/immagini/SUPREMEPRIMA.webm</video:content_loc>
+      <video:publication_date>2026-04-23T00:00:00+02:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://federicowebsolution.it/assets/media/immagini/supreme.webp</video:thumbnail_loc>
+      <video:title>Dopo il restyling del sito Supreme Cars</video:title>
+      <video:description>Video dimostrativo del sito Supreme Cars dopo il restyling realizzato da Federico Web Solution.</video:description>
+      <video:content_loc>https://federicowebsolution.it/assets/media/immagini/Supreme.webm</video:content_loc>
+      <video:publication_date>2026-04-23T00:00:00+02:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+</urlset>
